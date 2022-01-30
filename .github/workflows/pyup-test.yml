@@ -66,6 +66,8 @@ jobs:
         run: |
           # Install cairo dependencies.
           brew install cairo
+          # Needed by metpy
+          brew install libtiff
 
       - name: Install dependencies
         run: |
